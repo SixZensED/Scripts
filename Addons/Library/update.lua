@@ -8,7 +8,17 @@ local gamelist = {
     ["Pack"] = "Normal Pack",
     ["Last Update"] = "23/4/2024",
     ["Status"] = "Risk",
-  }
+  },
+  [13772394625] = {
+    ["Pack"] = "Normal Pack",
+    ["Last Update"] = "23/4/2024",
+    ["Status"] = "Working",
+  },
+  [1730877806] = {
+    ["Pack"] = "Simulator Pack",
+    ["Last Update"] = "23/4/2024",
+    ["Status"] = "Banned",
+  },
 }
 
 return gamelist

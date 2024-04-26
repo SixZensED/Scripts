@@ -9,6 +9,11 @@ local gamelist = {
     ["Last Update"] = "26/4/2024",
     ["Status"] = "Working",
   },
+  [6897167394] = {
+    ["Pack"] = "Normal Pack",
+    ["Last Update"] = "27/4/2024",
+    ["Status"] = "Working",
+  },
 }
 
 return gamelist

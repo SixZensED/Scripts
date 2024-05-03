@@ -11,12 +11,17 @@ local gamelist = {
   },
   [6897167394] = {
     ["Pack"] = "Normal Pack",
-    ["Last Update"] = "27/4/2024",
+    ["Last Update"] = "2/5/2024",
     ["Status"] = "Working",
   },
   ["1240123653"] = {
-        ["Pack"] = "Normal Pack",
+    ["Pack"] = "Normal Pack",
     ["Last Update"] = "1/5/2024",
+    ["Status"] = "Working",
+  },
+  ["537413528"] = {
+    ["Pack"] = "Normal Pack",
+    ["Last Update"] = "3/5/2024",
     ["Status"] = "Working",
   },
 }

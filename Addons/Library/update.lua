@@ -20,7 +20,7 @@ local gamelist = {
     ["Status"] = "Working",
   },
   ["537413528"] = {
-    ["Pack"] = "Normal Pack",
+    ["Pack"] = "Kaitun Pack",
     ["Last Update"] = "3/5/2024",
     ["Status"] = "Working",
   },

@@ -1,4 +1,4 @@
---1
+
 -- Will be used later for getting flattened globals
 local ImportGlobals
 
@@ -19,38 +19,66 @@ local ObjectTree = {
                 }
             },
             {
-                2,
+                19,
                 "ModuleScript",
                 {
-                    "Acrylic"
+                    "Elements"
                 },
                 {
                     {
-                        4,
+                        22,
                         "ModuleScript",
                         {
-                            "AcrylicPaint"
+                            "Dropdown"
                         }
                     },
                     {
-                        6,
+                        25,
                         "ModuleScript",
                         {
-                            "Utils"
+                            "Paragraph"
                         }
                     },
                     {
-                        5,
+                        27,
                         "ModuleScript",
                         {
-                            "CreateAcrylic"
+                            "Toggle"
                         }
                     },
                     {
-                        3,
+                        26,
                         "ModuleScript",
                         {
-                            "AcrylicBlur"
+                            "Slider"
+                        }
+                    },
+                    {
+                        23,
+                        "ModuleScript",
+                        {
+                            "Input"
+                        }
+                    },
+                    {
+                        21,
+                        "ModuleScript",
+                        {
+                            "Colorpicker"
+                        }
+                    },
+                    {
+                        20,
+                        "ModuleScript",
+                        {
+                            "Button"
+                        }
+                    },
+                    {
+                        24,
+                        "ModuleScript",
+                        {
+                            "Keybind"
                         }
                     }
                 }
@@ -70,17 +98,80 @@ local ObjectTree = {
                         },
                         {
                             {
-                                38,
+                                33,
                                 "ModuleScript",
                                 {
-                                    "Linear.spec"
+                                    "GroupMotor"
                                 }
                             },
                             {
-                                37,
+                                35,
                                 "ModuleScript",
                                 {
-                                    "Linear"
+                                    "Instant"
+                                }
+                            },
+                            {
+                                43,
+                                "ModuleScript",
+                                {
+                                    "Spring"
+                                }
+                            },
+                            {
+                                39,
+                                "ModuleScript",
+                                {
+                                    "Signal"
+                                }
+                            },
+                            {
+                                45,
+                                "ModuleScript",
+                                {
+                                    "isMotor"
+                                }
+                            },
+                            {
+                                34,
+                                "ModuleScript",
+                                {
+                                    "GroupMotor.spec"
+                                }
+                            },
+                            {
+                                44,
+                                "ModuleScript",
+                                {
+                                    "Spring.spec"
+                                }
+                            },
+                            {
+                                32,
+                                "ModuleScript",
+                                {
+                                    "BaseMotor.spec"
+                                }
+                            },
+                            {
+                                40,
+                                "ModuleScript",
+                                {
+                                    "Signal.spec"
+                                }
+                            },
+                            {
+                                42,
+                                "ModuleScript",
+                                {
+                                    "SingleMotor.spec"
+                                }
+                            },
+                            {
+                                46,
+                                "ModuleScript",
+                                {
+                                    "isMotor.spec"
                                 }
                             },
                             {
@@ -98,66 +189,10 @@ local ObjectTree = {
                                 }
                             },
                             {
-                                46,
+                                38,
                                 "ModuleScript",
                                 {
-                                    "isMotor.spec"
-                                }
-                            },
-                            {
-                                45,
-                                "ModuleScript",
-                                {
-                                    "isMotor"
-                                }
-                            },
-                            {
-                                35,
-                                "ModuleScript",
-                                {
-                                    "Instant"
-                                }
-                            },
-                            {
-                                32,
-                                "ModuleScript",
-                                {
-                                    "BaseMotor.spec"
-                                }
-                            },
-                            {
-                                39,
-                                "ModuleScript",
-                                {
-                                    "Signal"
-                                }
-                            },
-                            {
-                                42,
-                                "ModuleScript",
-                                {
-                                    "SingleMotor.spec"
-                                }
-                            },
-                            {
-                                43,
-                                "ModuleScript",
-                                {
-                                    "Spring"
-                                }
-                            },
-                            {
-                                40,
-                                "ModuleScript",
-                                {
-                                    "Signal.spec"
-                                }
-                            },
-                            {
-                                44,
-                                "ModuleScript",
-                                {
-                                    "Spring.spec"
+                                    "Linear.spec"
                                 }
                             },
                             {
@@ -168,19 +203,49 @@ local ObjectTree = {
                                 }
                             },
                             {
-                                34,
+                                37,
                                 "ModuleScript",
                                 {
-                                    "GroupMotor.spec"
-                                }
-                            },
-                            {
-                                33,
-                                "ModuleScript",
-                                {
-                                    "GroupMotor"
+                                    "Linear"
                                 }
                             }
+                        }
+                    }
+                }
+            },
+            {
+                2,
+                "ModuleScript",
+                {
+                    "Acrylic"
+                },
+                {
+                    {
+                        6,
+                        "ModuleScript",
+                        {
+                            "Utils"
+                        }
+                    },
+                    {
+                        3,
+                        "ModuleScript",
+                        {
+                            "AcrylicBlur"
+                        }
+                    },
+                    {
+                        4,
+                        "ModuleScript",
+                        {
+                            "AcrylicPaint"
+                        }
+                    },
+                    {
+                        5,
+                        "ModuleScript",
+                        {
+                            "CreateAcrylic"
                         }
                     }
                 }
@@ -192,13 +257,6 @@ local ObjectTree = {
                     "Themes"
                 },
                 {
-                    {
-                        53,
-                        "ModuleScript",
-                        {
-                            "Rose"
-                        }
-                    },
                     {
                         49,
                         "ModuleScript",
@@ -214,17 +272,17 @@ local ObjectTree = {
                         }
                     },
                     {
-                        52,
-                        "ModuleScript",
-                        {
-                            "Light"
-                        }
-                    },
-                    {
                         51,
                         "ModuleScript",
                         {
                             "Darker"
+                        }
+                    },
+                    {
+                        52,
+                        "ModuleScript",
+                        {
+                            "Light"
                         }
                     },
                     {
@@ -233,84 +291,12 @@ local ObjectTree = {
                         {
                             "Amethyst"
                         }
-                    }
-                }
-            },
-            {
-                7,
-                "Folder",
-                {
-                    "Components"
-                },
-                {
-                    {
-                        16,
-                        "ModuleScript",
-                        {
-                            "TitleBar"
-                        }
                     },
                     {
-                        13,
+                        53,
                         "ModuleScript",
                         {
-                            "Section"
-                        }
-                    },
-                    {
-                        8,
-                        "ModuleScript",
-                        {
-                            "Assets"
-                        }
-                    },
-                    {
-                        10,
-                        "ModuleScript",
-                        {
-                            "Dialog"
-                        }
-                    },
-                    {
-                        9,
-                        "ModuleScript",
-                        {
-                            "Button"
-                        }
-                    },
-                    {
-                        17,
-                        "ModuleScript",
-                        {
-                            "Window"
-                        }
-                    },
-                    {
-                        15,
-                        "ModuleScript",
-                        {
-                            "Textbox"
-                        }
-                    },
-                    {
-                        11,
-                        "ModuleScript",
-                        {
-                            "Element"
-                        }
-                    },
-                    {
-                        12,
-                        "ModuleScript",
-                        {
-                            "Notification"
-                        }
-                    },
-                    {
-                        14,
-                        "ModuleScript",
-                        {
-                            "Tab"
+                            "Rose"
                         }
                     }
                 }
@@ -323,66 +309,80 @@ local ObjectTree = {
                 }
             },
             {
-                19,
-                "ModuleScript",
+                7,
+                "Folder",
                 {
-                    "Elements"
+                    "Components"
                 },
                 {
                     {
-                        25,
+                        13,
                         "ModuleScript",
                         {
-                            "Paragraph"
+                            "Section"
                         }
                     },
                     {
-                        23,
+                        16,
                         "ModuleScript",
                         {
-                            "Input"
+                            "TitleBar"
                         }
                     },
                     {
-                        22,
+                        15,
                         "ModuleScript",
                         {
-                            "Dropdown"
+                            "Textbox"
                         }
                     },
                     {
-                        20,
+                        8,
+                        "ModuleScript",
+                        {
+                            "Assets"
+                        }
+                    },
+                    {
+                        11,
+                        "ModuleScript",
+                        {
+                            "Element"
+                        }
+                    },
+                    {
+                        14,
+                        "ModuleScript",
+                        {
+                            "Tab"
+                        }
+                    },
+                    {
+                        17,
+                        "ModuleScript",
+                        {
+                            "Window"
+                        }
+                    },
+                    {
+                        9,
                         "ModuleScript",
                         {
                             "Button"
                         }
                     },
                     {
-                        27,
+                        10,
                         "ModuleScript",
                         {
-                            "Toggle"
+                            "Dialog"
                         }
                     },
                     {
-                        21,
+                        12,
                         "ModuleScript",
                         {
-                            "Colorpicker"
-                        }
-                    },
-                    {
-                        26,
-                        "ModuleScript",
-                        {
-                            "Slider"
-                        }
-                    },
-                    {
-                        24,
-                        "ModuleScript",
-                        {
-                            "Keybind"
+                            "Notification"
                         }
                     }
                 }
@@ -3586,8 +3586,8 @@ function Element:New(Idx, Config)
 		end
 
 		Dropdown:BuildDropdownList()
-
 		Dropdown:BuildDropdownList()
+		DropdownDisplay.Text = ""
 	end
 
 	function Dropdown:OnChanged(Func)

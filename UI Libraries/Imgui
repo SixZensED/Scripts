@@ -93,7 +93,6 @@ Prefabs.BackgroundColor3 = Color3.new(1, 1, 1)
 Prefabs.Size = UDim2.new(0, 100, 0, 100)
 Prefabs.Visible = false
 
-
 Label.Name = "Label"
 Label.Parent = Prefabs
 Label.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -804,9 +803,6 @@ Windows.BackgroundTransparency = 1
 Windows.Position = UDim2.new(0, 20, 0, 20)
 Windows.Size = UDim2.new(1, 20, 1, -20)
 
---[[ Script ]]--
-script.Parent = imgui
-
 local UIS = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RS = game:GetService("RunService")
@@ -815,19 +811,14 @@ local ps = game:GetService("Players")
 local p = ps.LocalPlayer
 local mouse = p:GetMouse()
 
-local Prefabs = script.Parent:WaitForChild("Prefabs")
-local Windows = script.Parent:FindFirstChild("Windows")
-
 local checks = {
 	["binding"] = false,
 }
 
 UIS.InputBegan:Connect(function(input, gameProcessed)
 	if input.KeyCode == ((typeof(ui_options.toggle_key) == "EnumItem") and ui_options.toggle_key or Enum.KeyCode.RightShift) then
-		if script.Parent then
-			if not checks.binding then
-				script.Parent.Enabled = not script.Parent.Enabled
-			end
+		if not checks.binding then
+			imgui.Enabled = not imgui.Enabled
 		end
 	end
 end)
@@ -1662,24 +1653,24 @@ function library:AddWindow(title, options)
 								local S = string
 								local Token =
 									{
-									["="] = true,
-									["."] = true,
-									[","] = true,
-									["("] = true,
-									[")"] = true,
-									["["] = true,
-									["]"] = true,
-									["{"] = true,
-									["}"] = true,
-									[":"] = true,
-									["*"] = true,
-									["/"] = true,
-									["+"] = true,
-									["-"] = true,
-									["%"] = true,
-									[";"] = true,
-									["~"] = true
-								}
+										["="] = true,
+										["."] = true,
+										[","] = true,
+										["("] = true,
+										[")"] = true,
+										["["] = true,
+										["]"] = true,
+										["{"] = true,
+										["}"] = true,
+										[":"] = true,
+										["*"] = true,
+										["/"] = true,
+										["+"] = true,
+										["-"] = true,
+										["%"] = true,
+										[";"] = true,
+										["~"] = true
+									}
 								for i, v in pairs(keywords) do
 									K[v] = true
 								end
@@ -1704,24 +1695,24 @@ function library:AddWindow(title, options)
 							local hTokens = function(string)
 								local Token =
 									{
-									["="] = true,
-									["."] = true,
-									[","] = true,
-									["("] = true,
-									[")"] = true,
-									["["] = true,
-									["]"] = true,
-									["{"] = true,
-									["}"] = true,
-									[":"] = true,
-									["*"] = true,
-									["/"] = true,
-									["+"] = true,
-									["-"] = true,
-									["%"] = true,
-									[";"] = true,
-									["~"] = true
-								}
+										["="] = true,
+										["."] = true,
+										[","] = true,
+										["("] = true,
+										[")"] = true,
+										["["] = true,
+										["]"] = true,
+										["{"] = true,
+										["}"] = true,
+										[":"] = true,
+										["*"] = true,
+										["/"] = true,
+										["+"] = true,
+										["-"] = true,
+										["%"] = true,
+										[";"] = true,
+										["~"] = true
+									}
 								local A = ""
 								string:gsub(".", function(c)
 									if Token[c] ~= nil then
